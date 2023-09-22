@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/server.dir/test.cpp.o CMakeFiles/server.dir/utils.cpp.o "CMakeFiles/server.dir/server-new.cpp.o" -o server 

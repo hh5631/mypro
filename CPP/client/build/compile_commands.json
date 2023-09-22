@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/hh/pro/CPP/client/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/client.dir/client-new.cpp.o -c /home/hh/pro/CPP/client/client-new.cpp",
+  "file": "/home/hh/pro/CPP/client/client-new.cpp"
+},
+{
+  "directory": "/home/hh/pro/CPP/client/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/client.dir/utils.cpp.o -c /home/hh/pro/CPP/client/utils.cpp",
+  "file": "/home/hh/pro/CPP/client/utils.cpp"
+}
+]

@@ -1,0 +1,3 @@
+/home/hh/pro/CPP/client/build/CMakeFiles/client.dir
+/home/hh/pro/CPP/client/build/CMakeFiles/edit_cache.dir
+/home/hh/pro/CPP/client/build/CMakeFiles/rebuild_cache.dir

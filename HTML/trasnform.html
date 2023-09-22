@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>文件上传</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+    
+    .form-group input[type="file"] {
+      display: none;
+    }
+    
+    .form-group .custom-file-upload {
+      display: inline-block;
+      background-color: #8a56b1;
+      color: #fff;
+      border-radius: 4px;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+    
+    .form-group .custom-file-upload:hover {
+      background-color: #6d3b91;
+    }
+    
+    .form-group .file-path {
+      margin-top: 5px;
+      color: #777;
+    }
+    
+    .submit-btn {
+      display: block;
+      margin: 0 auto;
+      background-color: #8a56b1;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    
+    .submit-btn:hover {
+      background-color: #6d3b91;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>文件上传</h1>
+    <div class="form-group">
+      <label for="file-upload">选择文件:</label>
+      <label class="custom-file-upload">
+        <input type="file" id="file-upload" onchange="displayFileName()" />
+        浏览
+      </label>
+      <div class="file-path" id="file-path"></div>
+    </div>
+    <button class="submit-btn" onclick="uploadFile()">上传</button>
+  </div>
+
+  <script>
+    function displayFileName() {
+      var fileInput = document.getElementById('file-upload');
+      var filePath = document.getElementById('file-path');
+      var fileName = fileInput.files[0].name;
+      filePath.textContent = fileName;
+    }
+
+    function uploadFile() {
+      var formData = new FormData();
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', 'http://localhost:8080/transfrom', true);
+  xhr.onload = function() {
+    if (xhr.status === 200) {
+      var response = xhr.responseText;
+      // 在这里处理返回的内容
+      alert(response);
+    } else {
+      // 请求失败时的处理逻辑
+      alert('上传文件失败。状态码：' + xhr.status);
+    }
+  };
+
+  xhr.send(formData);
+    }
+  </script>
+</body>
+</html>

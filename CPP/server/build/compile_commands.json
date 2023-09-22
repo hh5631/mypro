@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/hh/pro/CPP/server/build",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/server.dir/test.cpp.o -c /home/hh/pro/CPP/server/test.cpp",
+  "file": "/home/hh/pro/CPP/server/test.cpp"
+},
+{
+  "directory": "/home/hh/pro/CPP/server/build",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/server.dir/utils.cpp.o -c /home/hh/pro/CPP/server/utils.cpp",
+  "file": "/home/hh/pro/CPP/server/utils.cpp"
+},
+{
+  "directory": "/home/hh/pro/CPP/server/build",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/server.dir/server-new.cpp.o -c /home/hh/pro/CPP/server/server-new.cpp",
+  "file": "/home/hh/pro/CPP/server/server-new.cpp"
+}
+]
