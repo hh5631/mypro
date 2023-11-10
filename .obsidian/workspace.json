@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "869741ed76af7d84",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed2dfe9d387ae339",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1a23702c3027f82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee1e95e6aae0a089",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "未命名 1.canvas",
+                "viewState": {
+                  "x": -92,
+                  "y": -95,
+                  "zoom": 0
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fcf85ac58e05afc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab9352667bbdfcff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0018c0b5f74510ea",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7568cf6a073d714d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "19edd2a6bd875207",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a9530a47a55ad4b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "32283cc535ae4cc6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2690e116c34259d0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "未命名 1.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4108d00b16a3705d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "未命名 1.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9e0c4db16dcc8043",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a2b9c5106c418f67",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "未命名 1.canvas"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 335.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "ee1e95e6aae0a089",
+  "lastOpenFiles": [
+    "未命名.canvas",
+    "2023-11-07.md",
+    "未命名 1.canvas",
+    "未命名 1",
+    "README.md",
+    "未命名",
+    "未命名.md",
+    "PY/bz1.jpeg",
+    "PY/bg.jpg"
+  ]
+}

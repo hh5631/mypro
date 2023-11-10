@@ -1,16 +1,19 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
-            "defines": [],
-            "compilerPath": "/usr/bin/clang-15",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
             "cStandard": "c17",
-            "cppStandard": "c++14",
-            "intelliSenseMode": "linux-clang-x64",
-            "compileCommands": "${workspaceFolder}/server/build/compile_commands.json"
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4
