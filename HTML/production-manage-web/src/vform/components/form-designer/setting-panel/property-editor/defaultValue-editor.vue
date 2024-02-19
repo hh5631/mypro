@@ -1,0 +1,28 @@
+<template>
+  <el-form-item :label="i18nt('designer.setting.defaultValue')">
+    <el-input
+      v-if="!hasConfig('optionItems')"
+      type="text"
+      v-model="optionModel.defaultValue"
+      @change="emitDefaultValueChange"
+    ></el-input>
+  </el-form-item>
+</template>
+
+<script>
+import i18n from "@/vform/utils/i18n"
+import propertyMixin from "@/vform/components/form-designer/setting-panel/property-editor/propertyMixin"
+
+export default {
+  name: "defaultValue-editor",
+  mixins: [i18n, propertyMixin],
+  props: {
+    designer: Object,
+    selectedWidget: Object,
+    optionModel: Object,
+  },
+}
+</script>
+
+<style scoped>
+</style>

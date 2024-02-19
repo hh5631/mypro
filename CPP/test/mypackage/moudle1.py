@@ -1,2 +1,0 @@
-def myfun():
-        print("mmmmmmmmmmmm");

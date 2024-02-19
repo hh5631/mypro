@@ -1,9 +1,15 @@
-import cv2
-import numpy as np
-a=cv2.imread('bz1.jpeg')
-b=np.ones((101,101,3))
-b=a[220:400,250:350]
-# a[0:40,0:40]=b
-cv2.imshow('o',a)
-cv2.waitKey()
-cv2.destroyAllWindows()
+import os
+def findAPI(dir,findStr):
+        for dirpath, dirnames, filenames in os.walk(dir):
+                for filename in filenames:
+                        file_path = os.path.join(dirpath, filename)
+                        with open(file_path,"r",encoding="UTF_8") as f:
+                                for line in f.readlines():
+                                        if findStr in line:
+                                                print(dirpath+"   "+line)
+                
+
+findAPI(dir="C:\\Users\\19878\\Desktop\\aaa",findStr="sss")
+
+
+          
