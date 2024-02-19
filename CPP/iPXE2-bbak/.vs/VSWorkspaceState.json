@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\config",
+    "\\src\\config\\qemu",
+    "\\src\\crypto",
+    "\\src\\tests"
+  ],
+  "SelectedNode": "\\src\\config\\qemu\\crypto.h",
+  "PreviewInSolutionExplorer": false
+}
